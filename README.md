@@ -1,10 +1,6 @@
 # Ontology for Biobanking (OBIB)
 
-> **Version:** 2023-04-05  
-> **IRI:** `http://purl.obolibrary.org/obo/obib.owl`  
-> **License:** [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
-
----
+> **Version:** 2.1  
 
 ## Overview
 
@@ -17,8 +13,6 @@ OBIB is built on the **Basic Formal Ontology (BFO)** as its upper ontology and i
 ## Conceptual Model
 
 The ontology was designed using **OntoUML**, a conceptual modeling language based on the Unified Foundational Ontology (UFO). The diagram below illustrates the core structure of OBIB.
-
-![OBIB OntoUML Diagram](ontouml_diagram.png)
 
 ### OntoUML Stereotypes Used
 
@@ -115,71 +109,14 @@ The anatomical site is linked to a Specimen through a **mediation** relation. It
 
 ---
 
-## Namespace Prefixes
-
-| Prefix | URI |
-|---|---|
-| `obib:` | `http://purl.obolibrary.org/obo/obib.owl/` |
-| `obo:` | `http://purl.obolibrary.org/obo/` |
-| `BFO:` | `http://purl.obolibrary.org/obo/BFO_` |
-| `OBI:` | `http://purl.obolibrary.org/obo/OBI_` |
-| `IAO:` | `http://purl.obolibrary.org/obo/IAO_` |
-| `RO:` | `http://purl.obolibrary.org/obo/RO_` |
-| `PATO:` | `http://purl.obolibrary.org/obo/PATO_` |
-| `UO:` | `http://purl.obolibrary.org/obo/UO_` |
-
----
-
 ## Loading the Ontology
 
 The ontology is serialized in **OWL/XML** format. It can be loaded using any OWL-compatible tool:
 
 - **Protégé** (recommended): Open `obib.owl` via *File → Open*
-- **Python (owlready2)**:
-  ```python
-  from owlready2 import get_ontology
-  onto = get_ontology("obib.owl").load()
-  ```
-- **Apache Jena / SPARQL**: Load as an RDF graph and query with SPARQL
-
----
-
-## Dependencies and Imports
-
-OBIB reuses terms from the following ontologies:
-
-| Ontology | Role |
-|---|---|
-| BFO (Basic Formal Ontology) | Upper ontology |
-| OBI (Ontology for Biomedical Investigation) | Domain ontology base |
-| IAO (Information Artifact Ontology) | Information entities |
-| RO (Relation Ontology) | Object properties |
-| PATO (Phenotype and Trait Ontology) | Quality terms |
-| UO (Units Ontology) | Measurement units |
-| EFO (Experimental Factor Ontology) | Date of birth class |
-| OGMS (Ontology for General Medical Science) | Diagnosis terms |
 
 ---
 
 ## Contributors
 
-| Name |
-|---|
-| Alice Nzinga |
-| Chris Stoeckert |
-| Jan-Eric Litton |
-| Jie Zheng |
-| Loreana Norlin |
-| Maria Anderberg |
-| Martin N. Fransson |
-| Mathias Brochhausen |
-| Mikael Eriksson |
-| Roxana Merino-Martinez |
-| Sanela Kjellqvist |
-| William R. Hogan |
-
----
-
-## License
-
-This ontology is released under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/) license.
+|FORTH|
