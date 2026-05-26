@@ -8,6 +8,23 @@ The **Ontology for Biobanking (OBIB)** is an OWL ontology for the semantic annot
 
 OBIB is built on the **Basic Formal Ontology (BFO)** as its upper ontology and is derived from a curated subset of the **Ontology for Biomedical Investigation (OBI)**. It is developed in compliance with [OBO Foundry](http://obofoundry.org/) principles. The first version of OBIB was produced by merging two earlier biobank-related ontologies: **OMIABIS** and the **UPenn Biobank Ontology**.
 
+In this version, the ontology was further extended to support the MIABIS v3 implementation requirements. The following core and supporting classes were added, revised, or ontologized as part of the new implementation work:
+
+Specimen Donor
+Event
+Specimen
+Anatomical Site
+Contact Information
+Collection / Sample Type Representation
+
+Additional ontology alignment work was also performed for:
+
+Detailed Sample Values mappings
+Aggregated Sample Type Values mappings
+Controlled vocabulary and OBIB URI validation/alignment
+
+These extensions were introduced to address gaps identified during the implementation and validation process, particularly for concepts that were expected to exist in previous ontology versions but were found to be missing or insufficiently modeled.
+
 ---
 
 ## Conceptual Model
