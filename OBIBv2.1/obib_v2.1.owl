@@ -1508,6 +1508,99 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002019 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBIB_0002019">
+        <rdfs:label xml:lang="en">has identifier</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002021 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBIB_0002021">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002222"/>
+        <rdfs:label xml:lang="en">occured at</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002022 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBIB_0002022">
+        <rdfs:label xml:lang="en">has unit of measurement</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002023 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBIB_0002023">
+        <rdfs:label xml:lang="en">has condition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002024 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBIB_0002024">
+        <rdfs:label xml:lang="en">created on</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002025 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBIB_0002025">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+        <rdfs:label xml:lang="en">has biological sex</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002026 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBIB_0002026">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">has storage temperature</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002028 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBIB_0002028">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002222"/>
+        <rdfs:label xml:lang="en">has creation time</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002030 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBIB_0002030">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002222"/>
+        <rdfs:label xml:lang="en">has birth date</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002032 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBIB_0002032">
+        <rdfs:label xml:lang="en">has anatomical origin</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002033 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBIB_0002033">
+        <rdfs:label xml:lang="en">has diagnosis</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000107 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000107">
@@ -14672,46 +14765,6 @@ No imports</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBIB_0000482 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000482">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004950"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000728"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A date of birth that signifies the calendar date on which a particular donor of a specimen was born.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000118>donor&apos;s date of birth</obo:IAO_0000118>
-        <obo:IAO_0000119>NCI BBRB, OBIB</obo:IAO_0000119>
-        <obo:IAO_0000234>NCI BBRB</obo:IAO_0000234>
-        <rdfs:label>specimen donor&apos;s date of birth</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBIB_0000483 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000483">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000047"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000728"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>Biological sex of the person who bears the role of donor.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000118>donor&apos;s gender</obo:IAO_0000118>
-        <obo:IAO_0000119>NCI BBRB, OBIB</obo:IAO_0000119>
-        <obo:IAO_0000234>NCI BBRB</obo:IAO_0000234>
-        <rdfs:label>donor&apos;s biological sex</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OBIB_0000484 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000484">
@@ -19846,6 +19899,24 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002020"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002030"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002047"/>
             </owl:Restriction>
@@ -20168,6 +20239,24 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
         <obo:IAO_0000117>forth</obo:IAO_0000117>
         <rdfs:comment>Allowed values: ISO 20387, ISO 9001, Other. Attribute value list can be expanded by the implementation, and implementation needs to verify provided data.</rdfs:comment>
         <rdfs:label xml:lang="en">quality management standard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000047"/>
+        <rdfs:label xml:lang="en">donor biological sex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002034">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004950"/>
+        <rdfs:label xml:lang="en">specimen donor date of birth</rdfs:label>
     </owl:Class>
     
 
@@ -30847,7 +30936,43 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002746"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002023"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002024"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002026"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000689"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002032"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002033"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002022"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002024"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000111 xml:lang="en">specimen</obo:IAO_0000111>
         <obo:IAO_0000112>Biobanking of blood taken and stored in a freezer for potential future investigations stores specimen.</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
@@ -37449,12 +37574,6 @@ However, Shaw explicates:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002045">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000728"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>Sample donor ID. Unique ID code of the sample donor within the sample collection</obo:IAO_0000115>
         <obo:IAO_0000117>forth</obo:IAO_0000117>
         <rdfs:label xml:lang="en">specimen donor ID</rdfs:label>
@@ -37477,6 +37596,30 @@ However, Shaw explicates:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002047">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002050"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002048"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002021"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002022"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Something that happens in a given place and time and is related to the sample and/or sample donor</obo:IAO_0000115>
         <obo:IAO_0000117>forth</obo:IAO_0000117>
         <rdfs:label xml:lang="en">event</rdfs:label>
@@ -37488,12 +37631,6 @@ However, Shaw explicates:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002048">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002047"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>Random ID for each event, created by the database implementation.</obo:IAO_0000115>
         <obo:IAO_0000117>forth</obo:IAO_0000117>
         <rdfs:label xml:lang="en">event ID</rdfs:label>
@@ -37505,12 +37642,6 @@ However, Shaw explicates:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002049">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002047"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>An expression of both date and time that an event has happened or will happen.</obo:IAO_0000115>
         <obo:IAO_0000117>forth</obo:IAO_0000117>
         <obo:IAO_0000118>date and time</obo:IAO_0000118>
@@ -37524,12 +37655,6 @@ However, Shaw explicates:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002050">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002047"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>The age of an individual at the time of an event.</obo:IAO_0000115>
         <obo:IAO_0000117>forth</obo:IAO_0000117>
         <dc:source>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C213228</dc:source>
@@ -37542,12 +37667,6 @@ However, Shaw explicates:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002051">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002047"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>Unit defining age at event</obo:IAO_0000115>
         <obo:IAO_0000117>forth</obo:IAO_0000117>
         <rdfs:comment>years, months, weeks, days, gestational weeks</rdfs:comment>
@@ -41115,5 +41234,5 @@ However, Shaw explicates:
 
 
 
-<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
