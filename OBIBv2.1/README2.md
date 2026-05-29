@@ -95,15 +95,6 @@ The **Ontology for BIoBanking (OBIB)** supports the annotation and modeling of b
 | OBIB_0002033 | has diagnosis |
 | OBIB_0002038 | dataset type |
 
-#### Removed Classes
-
-| ID | Label | Replaced by |
-|---|---|---|
-| OBIB_0000482 | specimen donor's date of birth | OBIB_0002034 `specimen donor date of birth` |
-| OBIB_0000483 | donor's biological sex | OBIB_0002020 `donor biological sex` |
-
-#### Minor Fixes
-Encoding corrections in definitions of `OBIB_0000168`, `OBIB_0000244`, `OBIB_0000245`, `OBIB_0000269`, `OBIB_0000356` (special characters for °C).
 
 ---
 
