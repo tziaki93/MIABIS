@@ -1,6 +1,4 @@
 # Ontology for BIoBanking (OBIB)
-
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
 [![OBO Foundry](https://img.shields.io/badge/OBO-Foundry-blue)](http://obofoundry.org/)
 
 The **Ontology for BIoBanking (OBIB)** supports the annotation and modeling of biobank activities, specimen contents, and administration. It is aligned with [MIABIS (Minimum Information About BIobank data Sharing)](https://github.com/MIABIS/miabis) and built on [Basic Formal Ontology (BFO)](http://basic-formal-ontology.org/).
