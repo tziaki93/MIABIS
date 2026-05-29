@@ -1,12 +1,25 @@
-The **Ontology for BIoBanking (OBIB)** supports the annotation and modeling of biobank activities, specimen contents, and administration. It is aligned with [MIABIS (Minimum Information About BIobank data Sharing)](https://github.com/MIABIS/miabis) and built on [Basic Formal Ontology (BFO)](http://basic-formal-ontology.org/).
+# Ontology for Biobanking (OBIB)
 
-**IRI:** `http://purl.obolibrary.org/obo/obib.owl`
+> **Version:** 2.1  
+
+## Overview
+
+The **Ontology for Biobanking (OBIB)** is an OWL ontology for the semantic annotation and formal modeling of the activities, contents, and administration of biobanks. Biobanks are facilities that collect and store biological specimens (e.g., blood, tissues, bodily fluids) along with associated annotation and clinical data.
+
+OBIB is built on the **Basic Formal Ontology (BFO)** as its upper ontology and is derived from a curated subset of the **Ontology for Biomedical Investigation (OBI)**. It is developed in compliance with [OBO Foundry](http://obofoundry.org/) principles. The first version of OBIB was produced by merging two earlier biobank-related ontologies: **OMIABIS** and the **UPenn Biobank Ontology**.
+
+In this version, the ontology was further extended to support the MIABIS v3 implementation requirements. The following core classes were added along with the supporting classes and object properties, revised, or ontologized as part of the new implementation work:
+
+* **Sample Donor**
+* **Event**
+* **Sample**
 
 ---
 
-## Version History
+## Conceptual Model
 
-### v2.1 — Current Release
+The ontology was designed using **OntoUML**, a conceptual modeling language based on the Unified Foundational Ontology (UFO), in order to support semantically precise domain analysis and conceptual modeling. The implemented ontology itself remains aligned with the Basic Formal Ontology (BFO) and follows OBO Foundry principles for interoperability and OWL-based biomedical ontology development.
+The diagram below illustrates the core structure of OBIB.
 
 #### Added Classes
 
