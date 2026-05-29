@@ -104,16 +104,3 @@ The **Ontology for BIoBanking (OBIB)** supports the annotation and modeling of b
 
 #### Minor Fixes
 Encoding corrections in definitions of `OBIB_0000168`, `OBIB_0000244`, `OBIB_0000245`, `OBIB_0000269`, `OBIB_0000356` (special characters for °C).
-
----
-
-### v2.0
-Base version. Source: OMIABIS and UPenn Biobank Ontology.
-
----
-
-## Contributors
-Alice Nzinga · Chris Stoeckert · Jan-Eric Litton · Jie Zheng · Loreana Norlin · Maria Anderberg · Martin N. Fransson · Mathias Brochhausen · Mikael Eriksson · Roxana Merino-Martinez · Sanela Kjellqvist · William R. Hogan
-
-## License
-[CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
