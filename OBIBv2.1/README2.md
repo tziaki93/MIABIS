@@ -104,3 +104,17 @@ The **Ontology for BIoBanking (OBIB)** supports the annotation and modeling of b
 
 #### Minor Fixes
 Encoding corrections in definitions of `OBIB_0000168`, `OBIB_0000244`, `OBIB_0000245`, `OBIB_0000269`, `OBIB_0000356` (special characters for °C).
+
+---
+
+## Loading the Ontology
+
+The ontology is serialized in **OWL** format. It can be loaded using any OWL-compatible tool:
+
+- **Protégé** (recommended): Open `obib.owl` via *File → Open*
+
+---
+
+## Contributors
+
+|FORTH|
