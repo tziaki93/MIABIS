@@ -19,7 +19,7 @@ The **Ontology for BIoBanking (OBIB)** supports the annotation and modeling of b
 | OBIB_0002018 | quality management standard |
 | NCIT_C60776 | contact information |
 
-**Sample**
+**Sample (Work in Progress-Sample Type Values)**
 | ID | Label |
 |---|---|
 | OBIB_0002015 | anatomical site ontology |
