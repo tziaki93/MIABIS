@@ -1662,6 +1662,15 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002058 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBIB_0002058">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000670"/>
+        <rdfs:label xml:lang="en">dataset type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000107 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000107">
@@ -2602,7 +2611,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002055"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002056"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002057"/>
-        <rdfs:label xml:lang="en">dataset type</rdfs:label>
+        <rdfs:label xml:lang="en">sample donor dataset type</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -6301,6 +6310,7 @@ Cons sometimes specifies a quality which is not a realizable.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/IAO_0020000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0020000">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002041"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -17826,6 +17836,7 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
         <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Sample Collection Responsible / Principal Investigator</obo:IAO_0000118>
         <rdfs:label xml:lang="en">name of sample collection responsible or principal investigator</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -18411,6 +18422,12 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C60776"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000648"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -18424,6 +18441,12 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002019"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002041"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -18442,6 +18465,36 @@ nature as collections of samples and data.&quot;</obo:IAO_0000115>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002029"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000633"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002029"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002043"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002036"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002036"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002035"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002039"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002037"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002039"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002038"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A contact role borne by a member of a sample collection or study organization and realized by serving as the contact for the collection or the study.</obo:IAO_0000115>
@@ -18983,6 +19036,7 @@ http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">A count that is about the aggregate of individuals who have contributed biological specimens in a study.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alice Nzinga</obo:IAO_0000117>
         <rdfs:label xml:lang="en">count of current sampled human study participant</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -19142,7 +19196,7 @@ http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</obo:IAO_0000119>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002059"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000692"/>
@@ -19161,7 +19215,7 @@ http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</obo:IAO_0000119>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002059"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An objective specification that specifies the total number of individuals who are planned to participate in study.</obo:IAO_0000115>
@@ -19174,7 +19228,7 @@ http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OBIB_0000693 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000693">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002059"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000694"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000695"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000698"/>
@@ -19190,7 +19244,7 @@ http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OBIB_0000694 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000694">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002059"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000695"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000698"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000699"/>
@@ -19205,7 +19259,7 @@ http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OBIB_0000695 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000695">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002059"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000698"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000699"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000700"/>
@@ -19240,7 +19294,7 @@ http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OBIB_0000698 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000698">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002059"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000699"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000700"/>
         <obo:IAO_0000115 xml:lang="en">A study design that is multidisciplinary done at the population level or among the population groups, generally to find the cause, incidence or spread of the disease or to see the response to the treatment, nutrition or environment.</obo:IAO_0000115>
@@ -19253,7 +19307,7 @@ http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OBIB_0000699 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000699">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002059"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000700"/>
         <obo:IAO_0000115 xml:lang="en">A study design where some aspect of the experiment is quality controlled for the purposes of quality assurance.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alice Nzinga</obo:IAO_0000117>
@@ -19265,7 +19319,7 @@ http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</obo:IAO_0000119>
     <!-- http://purl.obolibrary.org/obo/OBIB_0000700 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000700">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002059"/>
         <obo:IAO_0000115 xml:lang="en">A study design usually in behavior genetics which aids the study of individual differences between genetically identical twins by highlighting the role of environmental and genetic causes on behavior.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Alice Nzinga</obo:IAO_0000117>
         <rdfs:label xml:lang="en">twin study design</rdfs:label>
@@ -20408,6 +20462,18 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
+        <obo:IAO_0000115>ID of the Research Resource</obo:IAO_0000115>
+        <obo:IAO_0000117>FORTH</obo:IAO_0000117>
+        <obo:IAO_0000118>research resource ID</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">research resource identifier</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBIB_0002042 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002042">
@@ -20421,6 +20487,18 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
         <obo:IAO_0000115>The context in which the sample collection was/is conducted.</obo:IAO_0000115>
         <obo:IAO_0000117>forth</obo:IAO_0000117>
         <rdfs:label xml:lang="en">sample collection setting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000632"/>
+        <obo:IAO_0000115>Complete http-address for the Research Resource.</obo:IAO_0000115>
+        <obo:IAO_0000117>forth</obo:IAO_0000117>
+        <obo:IAO_0000118>Research resource URL</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">research resource unique resource locator</rdfs:label>
     </owl:Class>
     
 
@@ -20469,7 +20547,7 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000670"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>List of key publications produced in the collection.</obo:IAO_0000115>
+        <obo:IAO_0000115>List of key publications produced in the collection or research resource.</obo:IAO_0000115>
         <obo:IAO_0000117>forth</obo:IAO_0000117>
         <rdfs:label xml:lang="en">publications</rdfs:label>
     </owl:Class>
@@ -20545,7 +20623,7 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000632"/>
         <obo:IAO_0000115>Complete http-address for the Network.</obo:IAO_0000115>
         <obo:IAO_0000117>forth</obo:IAO_0000117>
-        <obo:IAO_0000118>network URL</obo:IAO_0000118>
+        <obo:IAO_0000118>Network URL</obo:IAO_0000118>
         <rdfs:label xml:lang="en">network unique resource locator</rdfs:label>
     </owl:Class>
     
@@ -20624,6 +20702,27 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
         <obo:IAO_0000115>Topics that the network partners collaborate on.</obo:IAO_0000115>
         <obo:IAO_0000117>forth</obo:IAO_0000117>
         <rdfs:label xml:lang="en">common collaboration topics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000670"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">research resource design</rdfs:label>
     </owl:Class>
     
 
@@ -31824,6 +31923,7 @@ Manual editing of automatically recorded data in an anesthesia information manag
         <obo:IAO_0000232 xml:lang="en">rediscussed at length (MC/JF/BP). 12/9/08). The definition was clarified to differentiate it from protocol.</obo:IAO_0000232>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label xml:lang="en">study design</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
