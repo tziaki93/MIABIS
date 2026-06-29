@@ -18,38 +18,14 @@ In this version, the ontology was further extended to support the MIABIS v3 impl
 
 #### Added Classes
 
-**Biobank**
+**Sample**
 | ID | Label |
 |---|---|
-| OBIB_0002015 | infrastructural capabilities |
-| OBIB_0002016 | organisation capabilities |
-| OBIB_0002017 | bioprocessing and analytical capabilities |
-| OBIB_0002018 | quality management standard |
-| NCIT_C60776 | contact information |
-
-**Sample (Work in Progress-Sample Type Values)**
-| ID | Label |
-|---|---|
-| OBIB_0002015 | anatomical site ontology |
 | OBIB_0002016 | sample creation date and time |
 | OBIB_0002017 | anatomical site |
-| OBIB_0002018 | anatomical site ontology version |
-| OBIB_0002019 | anatomical site ontology code |
-| OBIB_0002020 | anatomical site ontology description |
-| OBIB_0002021 | Ascites fluid |
 | OBIB_0002022 | sample content diagnosis |
 | OBIB_0002023 | use and access conditions |
 | OBIB_0002024 | sample source |
-| OBIB_0002028 | bone |
-| OBIB_0002029 | bone marrow aspirate |
-| OBIB_0002030 | bone marrow plasma |
-| OBIB_0002031 | bone tissue |
-| OBIB_0002032 | bronchoalveolar lavage |
-| OBIB_0002033 | cancer cell lines |
-| OBIB_0002034 | dental pulp |
-| OBIB_0002035 | digital sample |
-| OBIB_0002036 | embryo |
-| OBIB_0002037 | entire body organ |
 
 **Sample Donor**
 | ID | Label |
@@ -101,7 +77,10 @@ In this version, the ontology was further extended to support the MIABIS v3 impl
 | OBIB_0002030 | has birth date |
 | OBIB_0002032 | has anatomical origin |
 | OBIB_0002033 | has diagnosis |
-| OBIB_0002038 | dataset type |
+| OBIB_0002038 | sample donor dataset type |
+| OBIB_0002040 | sample type |
+
+
 
 
 ---
