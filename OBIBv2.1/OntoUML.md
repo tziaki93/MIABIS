@@ -5,7 +5,8 @@
 | OBIB (2023)    | MIABIS v2   | 1804     | 93          | 226          | 17807   |
 | OBIB (2026)    | MIABIS v2.1 | 1848     | 107         | 226          | 18117   |
 
-<img width="919" height="626" alt="image" src="https://github.com/user-attachments/assets/c456444a-ac6c-4b02-8f47-7e98066e1109" />
+<img width="777" height="790" alt="image" src="https://github.com/user-attachments/assets/9ce08e38-7a67-4399-b505-8d7bab3ca13f" />
+
 
 
 ---
