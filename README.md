@@ -63,16 +63,6 @@ In this version, the ontology was further extended to support the MIABIS v3 impl
 | OBIB_0002043 | research resource unique resource locator |
 | OBIB_0002059 | research resource design |
 
-#### Existing Classes Reconnected
-
-The following classes already existed in OBIB and were formally connected to their respective entities as part of this implementation work:
-
-**Biobank** — `biobank identifier with ISO 3166-1 alpha-2 code` (OBIB_0000621), `biobank proper name` (OBIB_0000619), `biobank's unique resource locator` (OBIB_0000633), `biobank organization` (OBIB_0000623), `biobank location ISO 3166-1 alpha-2 code` (OBIB_0000656), `contact information` (NCIT_C60776), `biobank description in english` (OBIB_0000000)
-
-**Collection** — `collection or study identifier` (OBIB_0000001), `name of collection or research resource contact person` (OBIB_0000651), `collection or research resource aim description` (OBIB_0000648), `biological sex` (PATO_0000047), `storage temperature setting` (OBIB_0000689), `disease` (OGMS_0000031), `count of current total human study participant` (OBIB_0000687), `inclusion criterion` (OBI_0500027)
-
-**Research Resource** — `name of collection or research resource contact person` (OBIB_0000651), `collection or research resource aim description` (OBIB_0000648), `biological sex` (PATO_0000047), `storage temperature setting` (OBIB_0000689), `disease` (OGMS_0000031), `total number of subjects` (OBIB_0000687), `inclusion criterion` (OBI_0500027)
-
 #### Obsolete Classes
 
 | ID | Label | Reason |
