@@ -12,7 +12,7 @@ In this version, the ontology was further extended to support the MIABIS v3 impl
 
 * **Biobank**
 * **Collection**
-* **Network** *(new module)*
+* **Network** *(new entity)*
 * **Research Resource**
 
 ---
