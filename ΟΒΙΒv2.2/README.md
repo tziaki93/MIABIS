@@ -90,6 +90,9 @@ In this version, the ontology was further extended to support the MIABIS v3 impl
 The ontology was designed using **OntoUML**, a conceptual modeling language based on the Unified Foundational Ontology (UFO), in order to support semantically precise domain analysis and conceptual modeling. The implemented ontology itself remains aligned with the Basic Formal Ontology (BFO) and follows OBO Foundry principles for interoperability and OWL-based biomedical ontology development.
 The diagram below illustrates the core structure of OBIB.
 
+<img width="4017" height="1238" alt="OntoUMLv2 2" src="https://github.com/user-attachments/assets/bb5d7d3e-d7c2-4174-acea-a4847263ce83" />
+
+
 ## Loading the Ontology
 
 The ontology is serialized in **OWL** format. It can be loaded using any OWL-compatible tool:
