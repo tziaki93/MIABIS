@@ -20443,6 +20443,24 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000047"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000210"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000212"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Biological sex of the person who bears the role of donor.</obo:IAO_0000115>
         <obo:IAO_0000117>forth</obo:IAO_0000117>
         <rdfs:label xml:lang="en">donor biological sex</rdfs:label>
@@ -20769,6 +20787,7 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Topics that the network partners collaborate on.</obo:IAO_0000115>
         <obo:IAO_0000117>forth</obo:IAO_0000117>
+        <rdfs:comment>Common charter, Common SOPs, Common data access policy, Common sample access, policy, Common MTA, Common image access policy, Common image MTA, Common representation, Common URL, Other.</rdfs:comment>
         <rdfs:label xml:lang="en">common collaboration topics</rdfs:label>
     </owl:Class>
     
@@ -20892,6 +20911,15 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002024"/>
+        <rdfs:label xml:lang="en">animal</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBIB_0002075 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002075">
@@ -20957,6 +20985,150 @@ https://en.wikipedia.org/wiki/Medical_record</rdfs:comment>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">collection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002076">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002024"/>
+        <rdfs:label xml:lang="en">human</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002024"/>
+        <rdfs:label xml:lang="en">environment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002015"/>
+        <rdfs:label xml:lang="en">data storage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002015"/>
+        <rdfs:label xml:lang="en">sample storage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002015"/>
+        <rdfs:label xml:lang="en">biosafety abilities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002098">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002017"/>
+        <rdfs:label xml:lang="en">Biochemical analyses</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002017"/>
+        <rdfs:label xml:lang="en">Genomics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002017"/>
+        <rdfs:label xml:lang="en">Nucleic acid extraction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002017"/>
+        <rdfs:label xml:lang="en">Proteomics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002017"/>
+        <rdfs:label xml:lang="en">Metabolomics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002017"/>
+        <rdfs:label xml:lang="en">Histological analysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002105">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002017"/>
+        <rdfs:label xml:lang="en">Cell-lines processing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002017"/>
+        <rdfs:label xml:lang="en">Virological analysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002017"/>
+        <rdfs:label xml:lang="en">Sample processing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002108">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002017"/>
+        <rdfs:label xml:lang="en">Sample shipping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0002109">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002017"/>
+        <rdfs:label xml:lang="en">Sample quality control services</rdfs:label>
     </owl:Class>
     
 
@@ -38679,6 +38851,180 @@ However, Shaw explicates:
         <obo:IAO_0000117 xml:lang="en">Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">group:OBI</obo:IAO_0000119>
         <rdfs:label xml:lang="en">requires discussion</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002078 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBIB_0002078">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002023"/>
+        <rdfs:label xml:lang="en">Commercial use</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002079 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBIB_0002079">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002023"/>
+        <rdfs:label xml:lang="en">Collaboration</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002080 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBIB_0002080">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002023"/>
+        <rdfs:label xml:lang="en">Specific research use</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002081 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBIB_0002081">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002023"/>
+        <rdfs:label xml:lang="en">Genetic data use</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002082 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBIB_0002082">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002023"/>
+        <rdfs:label xml:lang="en">Outside EU access</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002083 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBIB_0002083">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002023"/>
+        <rdfs:label xml:lang="en">Xenograft</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002084 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBIB_0002084">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002023"/>
+        <rdfs:label xml:lang="en">Other animal work</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002088 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBIB_0002088">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002016"/>
+        <rdfs:label xml:lang="en">Recontact with donors</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002089 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBIB_0002089">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002016"/>
+        <rdfs:label xml:lang="en">Facilitating clinical trials</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002090 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBIB_0002090">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002016"/>
+        <rdfs:label xml:lang="en">Setting up prospective collections</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002091 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBIB_0002091">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002016"/>
+        <rdfs:label xml:lang="en">Access to omics data</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002092 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBIB_0002092">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002016"/>
+        <rdfs:label xml:lang="en">Access to laboratory analysis data</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002093 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBIB_0002093">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002016"/>
+        <rdfs:label xml:lang="en">Access to donors&apos;clinical data</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002094 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBIB_0002094">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002016"/>
+        <rdfs:label xml:lang="en">Access to pathology archive</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002095 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBIB_0002095">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002016"/>
+        <rdfs:label xml:lang="en">Access to radiology archive</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002096 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBIB_0002096">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002016"/>
+        <rdfs:label xml:lang="en">Access to national medical registries</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002097 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBIB_0002097">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002015"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002016"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002018"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/obib.owl/OBIB_0002023"/>
+        <rdfs:label xml:lang="en">Other</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002110 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBIB_0002110">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002018"/>
+        <rdfs:label xml:lang="en">ISO 20387</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0002111 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/OBIB_0002111">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBIB_0002018"/>
+        <rdfs:label xml:lang="en">ISO 9001</rdfs:label>
     </owl:NamedIndividual>
     
 
