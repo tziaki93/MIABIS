@@ -1,13 +1,11 @@
 # Ontology for Biobanking (OBIB)
 
-> **Version:** 2.2  
+> **Version:** 2.3 (In Progress)
 
-In this version, the ontology was further extended to support the MIABIS v3 implementation requirements. The following core classes were added along with the supporting classes and object properties, revised, or ontologized as part of the new implementation work:
+Version 2.3 is actively in development to support the implementation requirements of MIABIS v3. Updates to core classes, supporting classes, and object properties are currently underway.
 
-* **Biobank**
-* **Collection**
-* **Network** *(new entity)*
-* **Research Resource**
+* **Sample type**
+* **Aggregated Sample Type**
 
 | Ontology    | MIABIS Version | Classes | Properties | Individuals | Axioms |
 |--------------|----------------|----------|-------------|--------------|---------|
@@ -16,5 +14,6 @@ In this version, the ontology was further extended to support the MIABIS v3 impl
 | OBIB (2023)    | MIABIS v2   | 1804     | 93          | 226          | 17807   |
 | OBIB (2026)    | MIABIS v2.1 | 1844     | 108         | 226          | 18117   |
 | OBIB (2026)    | MIABIS v2.2 | 1868     | 206         | 226          | 18346       |
+| OBIB (2026)    | MIABIS v2.3 | ...     | ...         | ...          | ...       |
 ---
 
