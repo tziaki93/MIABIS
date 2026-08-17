@@ -1,6 +1,6 @@
 # Ontology for Biobanking (OBIB)
 
-> **Version:** 2.3 (In Progress)
+> **Version:** 2.3
 
 Version 2.3 is actively in development to support the implementation requirements of MIABIS v3. Updates to core classes, supporting classes, and object properties are currently underway.
 
