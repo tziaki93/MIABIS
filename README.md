@@ -14,6 +14,6 @@ Version 2.3 is actively in development to support the implementation requirement
 | OBIB (2023)    | MIABIS v2   | 1804     | 93          | 226          | 17807   |
 | OBIB (2026)    | MIABIS v2.1 | 1844     | 108         | 226          | 18117   |
 | OBIB (2026)    | MIABIS v2.2 | 1868     | 206         | 226          | 18346       |
-| OBIB (2026)    | MIABIS v2.3 | ...     | ...         | ...          | ...       |
+| OBIB (2026)    | MIABIS v2.3 | 1926     | 203         | 267          | 18893       |
 ---
 
